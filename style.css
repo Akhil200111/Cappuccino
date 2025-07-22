@@ -66,3 +66,57 @@ li a{
 li a:hover{
     border-bottom: 2px solid #f00;
 }
+
+
+.header{
+    background: url(https://img.freepik.com/premium-photo/small-cup-black-coffee-dark-background-with-coffee-beans_155165-7704.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Playfair Display',serif;
+    font-weight: normal;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.main-heading{
+    position: absolute;
+    top: 7rem;
+    left: 8%;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;   
+}
+
+.primary-heading{
+    position: absolute;
+    top: 15rem;
+    left: 14%;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+
+.main-btn{
+    position: absolute;
+    padding: 10px 30px;
+    /* background: transparent; */
+    background:var(--main-color) ;
+    transform: translateY(20px);
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px var(--main-color);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main-btn:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    
+}
