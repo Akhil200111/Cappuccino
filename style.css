@@ -120,3 +120,83 @@ li a:hover{
     transition: 0.8s;
     
 }
+
+#our-story{
+    height: 100vh;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    background: url(imegs/ai-generated-hot-black-coffee-isolated-on-transparent-background-free-png.webp);
+    transform: rotate(120deg);
+    /* background: transparent; */
+    background-position: center;
+    background-size: cover;
+}
+
+.title-style{
+    display: flex; 
+    align-items: center;
+}
+
+.title{
+    font-family: 'Playfair Display',serif;
+    font-size: 4rem;
+     color: white;
+     transform: translateX(-100px);
+
+}
+
+.line{
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    transform: translateX(-120px);
+}
+
+.section-content p{
+    max-width: 500px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 20px 0;
+
+}
+
+/* coffee start */
+
+.coffee-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+
+
+.img-2{
+    width: 600px;
+    height: 600px;
+}
+
+.title-two{
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Playfair Display',serif;
+}
+
+.content-section p{
+    max-width: 500px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: sans-serif;
+
+}
