@@ -200,3 +200,89 @@ li a:hover{
     font-family: sans-serif;
 
 }
+
+/* Products session */
+
+.title-three{
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    /* border: 2px solid #fff; */
+    padding: 0 20px;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 4rem;
+    color: #000;
+    background: linear-gradient(to top,#aa6f0285,rgba(255, 255, 255, 0.515));
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -30px;
+}
+
+.img-one{
+    border-radius: 50%;
+    background: url(https://wallpapers.com/images/hd/coffee-pictures-svo1def239v68jz6.jpg);
+    background-position: right;
+    background-size: cover;
+    
+}
+
+.img-two{
+    border-radius: 50%;
+    background: url(https://media.istockphoto.com/id/1552871673/photo/black-coffee-in-a-white-glass-placed-on-an-old-cement-table-with-coffee-beans.jpg?b=1&s=170667a&w=0&k=20&c=BxIvKV9YJtRfPf398mSJg1_2_n0IRdRxp2P5Q07l_GI=);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.img-three{
+    border-radius: 50%;
+    background: url(https://wallpapers.com/images/hd/coffee-pictures-svo1def239v68jz6.jpg);
+    background-position: right;
+    background-size: cover;
+    
+}
+
+.card-title{
+    color: #000;
+    font-family: serif;
+    font-size: 1.5rem;
+    position: relative;
+    top: 8rem;
+    margin:20px 0;
+}
+
+.card .items{
+    display: block;
+    margin-left: 0;
+    padding-top: 10px;
+    margin-top: 40px;
+}
+
+.card .items p{
+    margin: 10px 0;
+    font-size: 1.2rem;
+    
+}
