@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+:root{
+    --main-color:#deab5f;
+    --primary-color:#312e2e;
+}
+
+button{
+    padding: 10px 30px;
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #000000;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 8rem;
+}
+
+.logo1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    font-family:   "Yellowtail", sans-serif ;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.logo1 img{
+    width: 70px;
+}
+
+
+li{
+    display: inline;
+    list-style:none;
+}
+
+li a{
+    margin-left: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 4px;
+
+}
+
+li a:hover{
+    border-bottom: 2px solid #f00;
+}
